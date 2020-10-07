@@ -40,7 +40,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat bottom center;
+   background: #161415 url(../images/header-background.jpg) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -69,18 +69,18 @@ header .banner-text h1 {
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
-   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+   text-shadow: 1px -1px 20px rgba(0, 0, 0, 1);
 }
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: #A8A8A8;
+   color: #f8f8f8;
    margin: 0 auto;
    width: 70%;
-   text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+   text-shadow: 1px 1px 10px rgba(0, 0, 0, 1);
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
-   color: #fff;
+   color: #F06000;
 }
 header .banner-text hr {
    width: 60%;
@@ -177,6 +177,7 @@ ul#nav li a {
 	text-decoration: none;
    text-align: left;
    color: #fff;
+   text-shadow: -1px -1px 5px #000, 1px 1px 5px #000;
 
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
