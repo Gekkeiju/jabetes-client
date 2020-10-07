@@ -38,60 +38,74 @@ export default {
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      },
-      {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"University of San Carlos",
+        "degree":"Bachelor of Science in Computer Science",
+        "graduated":"October 2017",
+        "description":"Thesis: Real-time campus landmark identification using mobile device with camera. Achieved 70% accuracy and precision"
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"DNA Micro Software Inc.",
+        "title":"Software Developer (Backend)",
+        "years":"October 2018 - March 2020",
+        "description":"Maintain and Develop APIs, databases, and background services for multiple web applications."
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Freelance Developer",
+        "title":"Freelance Developer ",
+        "years":"2014 ~ 2016",
+        "description":"Various local web design work. Minor touch ups to School enrollment"
       }
     ],
     "skills":[
       {
         "name":"Git",
-        "level":"60%"
+        "level":"70%"
       },
       {
-        "name":"Illustrator",
-        "level":"55%"
+        "name":"NodeJS",
+        "level":"85%"
       },
       {
         "name":"ReactJs",
         "level":"50%"
       },
       {
+        "name":"AngularJS",
+        "level":"20%"
+      },
+      {
         "name":"CSS",
-        "level":"90%"
-      },
-      {
-        "name":"HTML5",
-        "level":"80%"
-      },
-      {
-        "name":"VueJs",
-        "level":"50%"
+        "level":"40%"
       },
       {
         "name":"MongoDB",
         "level":"80%"
+      },
+      {
+        "name":"RethinkDB",
+        "level":"80%"
+      },
+      {
+        "name":"Neo4j",
+        "level":"10%"
+      },
+      {
+        "name":"MYSQL",
+        "level":"80%"
+      },
+      {
+        "name":"GraphQL",
+        "level":"30%"
+      },
+      {
+        "name":"GNU Image Manipulation Program",
+        "level":"50%"
+      },
+      {
+        "name":"Shotcut Video Editor",
+        "level":"50%"
       }
     ]
   },
