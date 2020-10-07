@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Stuff grabbed from https://github.com/tbakerx/react-resume-template
+
 ## Available Scripts
 
 In the project directory, you can run:

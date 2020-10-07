@@ -1,26 +1,38 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import Home from './components/Home';
+import About from './components/About'
+import resumeData from './components/resumeData'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reloadddd.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+console.log("what", {resumeData})
+
+class App extends Component {
+
+  constructor(props){
+    super(props)
+
+    this.state = {
+      resumeData
+    }
+
+    console.log('da state', {s: this.state})
+  }
+
+  // componentDidMount() {
+  //   this.setState = {
+  //     resumeData
+  //   }
+  // }
+
+  render() {
+    console.log("what2", {ha: this.state})
+    return (
+      <div className="App">
+        <Home data={this.state.resumeData} />
+        <About data={this.state.resumeData.main} />
+      </div>
+    );
+  }
 }
 
 export default App;
