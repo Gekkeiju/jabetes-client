@@ -4,15 +4,15 @@ export default {
     "occupation":"Software Developer",
     "description":"I dabble in a little bit of everything but specialize with backend web development from designing databases to api to other services",
     "image":"profilepic.png",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bio":"Right now I'm doing ReacJS and NodeJS",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "email": "juanlorenzo.villegas@gmail.com",
+    "phone": "(+63) 920 846 6153",
     "address":{
-      "street":"(Your Street)",
-      "city":"Cebu",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street":"Oklahoma St., Bulacao",
+      "city":"Cebu City",
+      "state":"Cebu",
+      "zip": "6000"
     },
     "website": "https://www.upwork.com/freelancers/~01be6c9351ae21c5fb",
     "resumedownload":"https://drive.google.com/uc?export=download&id=1a9167YVXBdnAQ81dZbFayJQTK9COl_h6",
